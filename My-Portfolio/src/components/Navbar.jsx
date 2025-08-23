@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react'
 import { LuMenu, LuX } from 'react-icons/lu'
+import CVfile from "../assets/Elakshmanaraj-Resume.pdf"
 
 const Navbar = () => {
   const [ mobile, setMobile ] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = () => {
     <div className='max-[1000px]:hidden'>
       <a 
       className='bg-violet-700 text-white rounded-2xl px-4 py-2 ease-in-out duration-300 hover:bg-violet-500'
-      href="" 
+      href={CVfile}
       download>
       Download CV
       </a>

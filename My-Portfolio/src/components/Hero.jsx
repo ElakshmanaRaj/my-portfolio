@@ -4,6 +4,7 @@ import { LuLinkedin } from "react-icons/lu";
 import { LuGithub } from "react-icons/lu";
 import { LuMail } from "react-icons/lu";
 import { LuPhoneCall } from "react-icons/lu";
+import CVfile from "../assets/Elakshmanaraj-Resume.pdf"
 
 const Hero = () => {
   return (
@@ -56,7 +57,7 @@ const Hero = () => {
       <div className="min-[1000px]:hidden flex justify-center items-center">
         <a
           className="bg-violet-700 text-white rounded-2xl px-4 py-2 ease-in-out duration-300 hover:bg-violet-500"
-          href=""
+          href={CVfile} 
           download
         >
           Download CV
