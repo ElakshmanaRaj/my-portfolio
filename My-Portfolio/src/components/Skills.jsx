@@ -44,7 +44,7 @@ const Skills = () => {
         {tools.map((tool, index)=> (
           <div key={index} className='bg-gray-900 p-6 rounded-md shadow-md cursor-pointer flex flex-col items-center gap-2'>
             <div className='text-3xl mb-3 hover:scale-[1.05] transition ease-in-out duration-200'>{tool.icon}</div>
-            <p className='text-white text-[15px] uppercase font-medium'>{tool.name}</p>
+            <p className='text-white text-[15px] uppercase text-center font-medium' >{tool.name}</p>
           </div>
         ))}        
       </div>

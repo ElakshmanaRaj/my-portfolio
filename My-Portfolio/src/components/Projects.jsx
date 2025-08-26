@@ -12,7 +12,7 @@ const Projects = () => {
     { name: "tasks admin & user dashboard", src: merntaskimg, link:"https://mern-task-management-i7cj.onrender.com/", skills: "react JS, node JS"},
     { name: "shopsy e-commerce web app", src: reactecommerce, link:"https://reactshopsy.netlify.app/", skills:"react JS, dummyJSON API" },
     { name: "moviespot web app", src: moviespotimg, link:"https://movie-rejs-app.netlify.app/", skills:"TMDB API, react JS" },
-    { name: "image explorer", src: explorerimg, link:"https://search-image-js.netlify.app/", skills:"Pixel API, javascript" },
+    { name: "image explorer", src: explorerimg, link:"https://search-image-js.netlify.app/", skills:"Unsplash API, javascript" },
     { name: "irctc app re-design", src: irctcimg, link:"https://www.figma.com/proto/neqvrswoPP2cWXLQeDlNyP/IRCTC-App-Re-Designs?node-id=4-16&starting-point-node-id=472%3A77&t=pZkeiaXi7LuwjZd3-1", skills:"UI/UX, prototypes" },
     { name: "flipkart UI design", src: flipkartimg, link:"https://www.figma.com/proto/qECrzP9EhXsYtPJx3hm9xd/Flipkart-Mobile-Design?node-id=75-699&starting-point-node-id=75%3A460&t=vD3NXf1rfkv9ozMY-1", skills:"App UI, wireframes" },
   ];
