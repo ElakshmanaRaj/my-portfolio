@@ -4,7 +4,7 @@ import { LuLinkedin } from "react-icons/lu";
 import { LuGithub } from "react-icons/lu";
 import { LuMail } from "react-icons/lu";
 import { LuPhoneCall } from "react-icons/lu";
-import CVfile from "../assets/Elakshmanaraj-Resume.pdf"
+import CVfile from "../assets/Elakshmanaraj_Web_Developer.pdf"
 
 const Hero = () => {
   return (
