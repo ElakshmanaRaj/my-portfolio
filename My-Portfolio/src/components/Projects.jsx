@@ -5,10 +5,12 @@ import moviespotimg from "../assets/moviespot-react-project.webp";
 import explorerimg from "../assets/img-explorer.webp";
 import irctcimg from "../assets/irctc cover.webp";
 import flipkartimg from "../assets/flipkart thumbnail.webp";
+import shopecomimg from "../assets/nestshopecom.webp";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
 const Projects = () => {
   const projects = [
+    { name:"shopnest ecommerce", src: shopecomimg, link:"https://nestshopecom.netlify.app/", skills: "react JS, Rest API" },
     { name: "tasks admin & user dashboard", src: merntaskimg, link:"https://mern-task-management-i7cj.onrender.com/", skills: "react JS, node JS"},
     { name: "shopsy e-commerce web app", src: reactecommerce, link:"https://reactshopsy.netlify.app/", skills:"react JS, dummyJSON API" },
     { name: "moviespot web app", src: moviespotimg, link:"https://movie-rejs-app.netlify.app/", skills:"TMDB API, react JS" },

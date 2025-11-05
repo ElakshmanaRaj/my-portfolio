@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
-import { LuMenu, LuX } from 'react-icons/lu'
-import CVfile from "../assets/Elakshmanaraj_Web_Developer.pdf"
+import { LuMenu, LuX } from 'react-icons/lu';
+import CVfile from "../assets/Elakshmanaraj_Resume.pdf";
 
 const Navbar = () => {
   const [ mobile, setMobile ] = useState(false);
