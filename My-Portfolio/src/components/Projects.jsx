@@ -11,7 +11,7 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 const Projects = () => {
   const projects = [
     { name:"shopnest ecommerce", src: shopecomimg, link:"https://nestshopecom.netlify.app/", skills: "react JS, Rest API" },
-    { name: "tasks admin & user dashboard", src: merntaskimg, link:"https://mern-task-management-i7cj.onrender.com/", skills: "react JS, node JS"},
+    { name: "tasks admin & user dashboard", src: merntaskimg, link:"https://task-reactfrontend.netlify.app/", skills: "react JS, node JS"},
     { name: "shopsy e-commerce web app", src: reactecommerce, link:"https://reactshopsy.netlify.app/", skills:"react JS, dummyJSON API" },
     { name: "moviespot web app", src: moviespotimg, link:"https://movie-rejs-app.netlify.app/", skills:"TMDB API, react JS" },
     { name: "image explorer", src: explorerimg, link:"https://search-image-js.netlify.app/", skills:"Unsplash API, javascript" },
